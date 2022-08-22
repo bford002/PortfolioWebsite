@@ -1,0 +1,23 @@
+.bio {
+  flex: 50%;
+  padding: 20px;
+  padding-top: 2%;
+  padding-right: 12%;
+  font-size: 26px;
+  font-family: 'Times New Roman';
+  font-weight: normal;
+  line-height: 1.5;
+}
+.headshot {
+  width: 35%;
+  display: flex;
+  border-radius: 35px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+.column {
+  flex: 50%;
+  padding: 15px;
+}
