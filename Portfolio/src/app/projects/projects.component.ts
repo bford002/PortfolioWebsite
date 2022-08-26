@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ɵdevModeEqual } from '@angular/core';
+import { StateService } from '../state.service';
 
 @Component({
   selector: 'app-projects',
@@ -6,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-  projects = [
+
+  public projects: { name: string, description: string, link: string }[] = [
     {
       name: 'Fern Herm',
       description: 'A pet/plant sitting app, allowing users to create and accept jobs based on their needs.',
@@ -24,10 +26,16 @@ export class ProjectsComponent implements OnInit {
     }
   ];
 
+  public modal = false;
+  
   constructor() {
   }
 
   ngOnInit(): void {
+  }
+
+  showModal() {
+    this.modal = true;
   }
 
 }

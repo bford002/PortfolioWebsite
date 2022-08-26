@@ -7,21 +7,20 @@ import { BioComponent } from './bio/bio.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { SkillsComponent } from './skills/skills.component';
+import { ProjectmodalComponent } from './projectmodal/projectmodal.component';
+import { StateService } from './state.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BioComponent,
     NavbarComponent,
     routingComponents,
-    HomeComponent,
-    SkillsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ StateService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
