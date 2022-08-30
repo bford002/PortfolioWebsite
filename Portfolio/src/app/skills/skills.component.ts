@@ -8,12 +8,23 @@ import { Component, OnInit } from '@angular/core';
 export class SkillsComponent implements OnInit {
 
   skills = [
-    'Javascript', 'TypeScript', 'React (hooks)', 'React Redux', 
-    'Bootstrap', 'Material-UI', 'Cascading Style Sheets (CSS)', 
-    'UX', 'UI', 'Node.js', 'Express', 'Axios', 'Webpack', 'MongoDB',
-    'Mongoose', 'PostgreSQL', 'Sequelize', 'MySQL', 'AWS EC2', 'Passport', 
+    'React', 'Angular', 'Bootstrap', 'Material-UI', 'CSS', 
+    'Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'Javascript', 'TypeScript', 'React Redux', 
+    'UX', 'UI', 'Axios', 'Webpack', 'Mongoose', 'Sequelize', 'MySQL', 'AWS EC2', 'Passport', 
     'Cloudinary', 'Mapbox', 'Git', 'Scrum', 'Agile'
   ]
+
+  topSkills = this.skills.slice(0, 9);
+
+  public columns = 3;
+
+  public getStyles() {
+    return {
+      display: 'grid',
+      'grid-template-columns': `repeat(${this.columns}, 1fr)`,
+      'justify-items': 'center',
+    };
+  }
 
   constructor() { }
 
