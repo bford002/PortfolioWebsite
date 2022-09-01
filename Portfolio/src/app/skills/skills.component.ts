@@ -44,8 +44,7 @@ export class SkillsComponent implements OnInit {
       skill: 'PostgreSQL',
       logo: '../../assets/img/postgresql-vertical.svg'
     },
-    // 'React', 'Angular', 'Bootstrap', 'Material-UI', 'CSS', 
-    // 'Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'Javascript', 'TypeScript', 'React Redux', 
+    // 'Javascript', 'TypeScript', 'React Redux', 
     // 'UX', 'UI', 'Axios', 'Webpack', 'Mongoose', 'Sequelize', 'MySQL', 'AWS EC2', 'Passport', 
     // 'Cloudinary', 'Mapbox', 'Git', 'Scrum', 'Agile'
   ]
