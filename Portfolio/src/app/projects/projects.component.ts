@@ -1,5 +1,4 @@
-import { Component, OnInit, ɵdevModeEqual } from '@angular/core';
-import { StateService } from '../state.service';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-projects',

@@ -3,14 +3,8 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class StateService {
+export class MessageService {
 
   constructor() { }
-
-  modal = false;
-
-  toggleModal() {
-    this.modal = !this.modal;
-  }
 
 }

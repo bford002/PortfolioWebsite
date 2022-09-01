@@ -3,12 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BioComponent } from './bio/bio.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { HomeComponent } from './home/home.component';
-import { SkillsComponent } from './skills/skills.component';
-import { ProjectmodalComponent } from './projectmodal/projectmodal.component';
-import { StateService } from './state.service';
+import { MessageService } from './message.service';
 
 @NgModule({
   declarations: [
@@ -18,9 +14,9 @@ import { StateService } from './state.service';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
-  providers: [ StateService ],
+  providers: [MessageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

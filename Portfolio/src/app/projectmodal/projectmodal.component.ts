@@ -29,10 +29,4 @@ export class ProjectmodalComponent implements OnInit {
     this.hideModal.emit(false);
   }
 
-  // boldWords(str: string, substr: string) {
-  //   let strRegExp = new RegExp(substr, 'g');
-  //   console.log('ran');
-  //     return str.replace(strRegExp, `<b>${substr}<b>`);
-  // };
-
 }

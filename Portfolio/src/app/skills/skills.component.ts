@@ -16,16 +16,6 @@ export class SkillsComponent implements OnInit {
 
   topSkills = this.skills.slice(0, 9);
 
-  public columns = 3;
-
-  public getStyles() {
-    return {
-      display: 'grid',
-      'grid-template-columns': `repeat(${this.columns}, 1fr)`,
-      'justify-items': 'center',
-    };
-  }
-
   constructor() { }
 
   ngOnInit(): void {
