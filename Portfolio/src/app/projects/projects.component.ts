@@ -23,7 +23,7 @@ export class ProjectsComponent implements OnInit {
       name: 'Big Easy',
       description: 'A casino app designed to replicate different casino games to give the user the rush of gambling.',
       link: 'github.com/TheYesMen/Iben-sCasino',
-      image: '',
+      image: '../assets/img/BigEasyCasino.png',
       details: [
         'Added new functionality to an existing legacy codebase, while staying true to the app architecture and styling of the original developers.',
         'Made calls, via Axios, to a noSQL database through Express and Node.js to give users a daily reward, encouraging them to return to the app.',
@@ -35,7 +35,7 @@ export class ProjectsComponent implements OnInit {
       name: 'Smarter Than',
       description: 'A trivia app that is designed to track your progress as you play through multiple rounds.',
       link: 'github.com/TheYesMen/Are-you-smarter-than-an-OS-student-',
-      image: '',
+      image: '../assets/img/SmarterThan.png',
       details: [
         'Stored all users in a MongoDB database after a user logged-in through Google OAuth.',
         'Made Axios calls to the database through Express to retrieve users and display their stats to a React frontend.',

@@ -21,3 +21,8 @@
   flex: 50%;
   padding: 15px;
 }
+.name {
+  font-family: 'Montserrat';
+  font-size: 30px;
+  text-decoration: underline;
+}

@@ -34,7 +34,7 @@ export class SkillsComponent implements OnInit {
     },
     {
       skill: 'Express',
-      logo: '../../assets/img/express-js-icon.svg'
+      logo: '../../assets/img/expressjs-icon.svg'
     },
     {
       skill: 'MongoDB',
@@ -42,7 +42,7 @@ export class SkillsComponent implements OnInit {
     },
     {
       skill: 'PostgreSQL',
-      logo: '../../assets/img/postgresql-vertical.svg'
+      logo: '../../assets/img/postgresql.svg'
     },
     // 'Javascript', 'TypeScript', 'React Redux', 
     // 'UX', 'UI', 'Axios', 'Webpack', 'Mongoose', 'Sequelize', 'MySQL', 'AWS EC2', 'Passport', 
