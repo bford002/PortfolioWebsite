@@ -20,7 +20,7 @@ export class ProjectsComponent implements OnInit {
       ]
     },
     {
-      name: 'Big Easy',
+      name: 'Big Easy Casino',
       description: 'A casino app designed to replicate different casino games to give the user the rush of gambling.',
       link: 'github.com/TheYesMen/Iben-sCasino',
       image: '../assets/img/BigEasyCasino.png',
