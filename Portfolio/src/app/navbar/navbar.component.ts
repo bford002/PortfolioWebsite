@@ -16,7 +16,6 @@ export class NavbarComponent implements OnInit {
 
   toggleNav() {
     this.isOpen = !this.isOpen;
-    console.log('clicked');
   }
 
 }
